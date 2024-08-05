@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255,222,173);
+  background-image: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url(https://th.bing.com/th/id/OIP.2D_7-uvDdyBn-SmyKcQ-JAHaEr?rs=1&pid=ImgDetMain);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+
+h1 {
+  background: linear-gradient(to right, rgb(237, 158, 11), rgb(255, 232, 189) );
+  padding-top: 22px;
+  padding-bottom: 22px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  animation: slideIn 2s;
+  width: 40%;
+  font-weight: 900;
+  color: purple;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#story {
+  border: 1px solid blanchedalmond;
+  width: 60vw;
+  margin: auto;
+  font-size: 1.2em;
+  animation: slideIn 3s;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  background: linear-gradient(to right, rgb(237, 158, 11), rgb(255, 232, 189) );
+  width: 20%;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  animation: slideIn 2s;
+  box-sizing: border-box;
+}
+
+#offer {
+  width: 65vw;
+  margin: auto;
+  animation: slideIn 2s;
+}
+
+.img-in {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(70px);
+  box-shadow: 0 0 10px gray;
+  border-radius: 10px;
+  animation: fadeIn 2.5s;
+  margin-bottom: 120px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#team {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#team-h2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#get-in-touch a {
+  text-decoration: none;
+  color: purple;
+}
+
+#get-in-touch {
+  text-align: center;
+  width: 50vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 22px;
+  font-weight: 500;
+  margin-bottom: 120px;
+}
+
+#footer {
+  background-color: rgb(255, 242, 222);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer-ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#footer-li {
+  list-style-type: none;
+}
+
+#footer-li a {
+  text-decoration: none;
+  color: purple;
+}
+
+#copy {
+  width: 50%;
+  margin-top: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 900;
+}
